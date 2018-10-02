@@ -9,3 +9,55 @@ body {
     justify-content: center;
     align-items: center;
 }
+ /*Cabecera*/
+ .cabecera {
+    background-image: url(img/SmallScreen.png);
+    background-position: center;
+    background-size: cover;
+    height: 48em;
+    width: 100%;
+    color: #ffffffff;
+    font-weight: initial;   
+    margin: auto; 
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgLogo {
+    padding-left: 3%;
+}
+
+.imgLogo img {
+    width: 80px;
+    height: 80px;
+}
+
+.navegador div ul li {
+    display: inline;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    padding: 3em;
+}
+
+.menuHeader {
+    padding: 0;
+    margin: 0;
+}
+
+.navegador li a {
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navegador li ul {
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+
