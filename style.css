@@ -35,29 +35,158 @@ body {
     height: 80px;
 }
 
+
 .navegador div ul li {
     display: inline;
     font-size: 0.7em;
     text-transform: uppercase;
-    padding: 3em;
-}
-
-.menuHeader {
     padding: 0;
-    margin: 0;
 }
 
-.navegador li a {
-    background-color: black;
-    color: whitesmoke;
+a {
     text-decoration: none;
-    padding: 10px 15px;
-    display: block;
+    color: #ffffffff;
 }
 
-.navegador li ul {
-    display:none;
-    position: absolute;
-    min-width: 140px;
+.menuHeader ul{
+    background-color: black;
+    justify-content: space-between;
+    height: 2em; 
 }
+
+.textoHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+}
+
+.textoHeader div {
+    line-height: 0.25em;
+    padding: 0;
+
+}
+
+.boton {
+    border-radius: 2em;
+    display: block;
+    border: solid;
+    color: #ffffffff;
+    background:transparent;
+    border-width: 0.5px;
+    padding: 1em 3em;
+    text-decoration: none;
+    margin: 0 auto;
+    color: none;
+}
+
+.textoHeader {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+ 
+}
+div#imagen {
+    width: 32em;
+    height: 32em;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url(img/feauture1.jpg);
+    margin: 30px auto;
+}
+
+div#imagen2 {
+    width: 32em;
+    height: 32em;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url(img/feauture2.jpg);
+    margin: 30px auto;
+}
+div#imagen3 {
+    width: 32em;
+    height: 32em;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url(img/feauture3.jpg);
+    margin: 30px auto;
+}
+div#imagen4 {
+    width: 32em;
+    height: 32em;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url(img/feauture4.jpg);
+    margin: 30px auto;
+}
+
+div#imagen5 {
+    width: 32em;
+    height: 32em;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url(img/feauture5.jpg);
+    margin: 30px auto;
+}
+div#imagen6 {
+    width: 32em;
+    height: 32em;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url(img/feauture6.jpg);
+    margin: 30px auto;
+}
+
+/*Footer*/
+footer{
+    height: 100vh;
+    height: 20rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    width: 97%;  
+    color: #ffffff;   
+}
+
+.icons a{
+    padding: 0.5em;
+}
+
+.hearty{
+    color: #CC0000;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #CC0000;
+    cursor: pointer;
+}
+
+.formulario{
+    height: 100vh;
+    height: 32rem;
+    background-image: url("img/contacus.jpg");
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    text-transform: capitalize;
+    min-height: 400px;
+    width: 97%; 
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
 
